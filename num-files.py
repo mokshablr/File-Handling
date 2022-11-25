@@ -13,7 +13,7 @@ def num_files(dir, sub):
             if f.endswith(sub):
                 ctr+=1
 
-    print(f"Number of "{sub}" files:",ctr)
+    print(f"Number of {sub} files:",ctr)
 
 if choice==1:
     dir=input("Enter directory path: ")
